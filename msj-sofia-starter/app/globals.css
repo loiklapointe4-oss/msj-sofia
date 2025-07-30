@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+
+body {
+  @apply bg-white text-neutral-900;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-lg font-medium shadow-sm border;
+}
+.btn-primary { @apply bg-neutral-900 text-white border-neutral-900; }
+.btn-ghost { @apply bg-white text-neutral-900 border-neutral-200; }
+.btn-msj { @apply bg-msj-primary text-white border-msj-primary; }
+.btn-sofia { @apply bg-sofia-primary text-white border-sofia-primary; }
